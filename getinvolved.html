@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pawesome :: Get Involved</title>    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="pawesome.css">
+        
+    </head>
+    <body>
+        <!--Boostrap Nav-->
+        <nav class="navbar navbar-expand-lg navbarcustom">  <!--Previously it was bg-body-tertiary instead of navbarcustom which is our class name-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="images/pawesomewebsitelogo.png" alt="logo"></a> <!--previously we had a # for the href of the anchor. In bootstrap # means a link should go there so we replace # with our index.html link-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto"> <!--We added mx-auto to center the navbar links-->
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="getinvolved.html">Get Involved</a>
+              <a class="nav-link" href="findapet.html">Find a Pet</a>
+              <a class="nav-link" href="adoptionform.html">Adoption Form</a>
+              <a class="nav-link" href="aboutus.html">About Us</a>
+              <a class="nav-link" href="donate.html">Donate</a>
+              <!--<a class="nav-link disabled" aria-disabled="true">Disabled</a>-->
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="pageheader">
+        <div class="container">
+          <h1>Get Involved</h1>
+          <p>Join our team of dedicated volunteers and make a difference in the lives of animals in need!</p>
+        </div>
+      </div>
+      
+      <div class="container" id="formcontainer">
+        <form action="volunteerthankyou.html">
+            <div class="formheading">
+                <h2 style="font-weight:bold;">Volunteer Application</h2>
+                <p>Fill out the form below and we'll get back to you as soon as possible</p>
+            </div>
+
+          <div class="mb-3">
+            <label for="firstName" class="form-label">First Name *</label>
+            <input type="text" class="form-control" id="firstName" pattern="[a-zA-Z]+" required>
+        </div>
+        <div class="mb-3">
+            <label for="lastName" class="form-label">Last Name *</label>
+            <input type="text" class="form-control" id="lastName" pattern="[a-zA-Z]+" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email Address *</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number *</label>
+            <input type="tel" class="form-control" id="phone" pattern="[0-9]+" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="address" class="form-label">Address</label>
+            <input type="text" class="form-control" id="address">
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="city" class="form-label">City</label>
+                <input type="text" class="form-control" pattern="[a-zA-Z]+" id="city">
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="state" class="form-label">State</label>
+                <input type="text" class="form-control" pattern="[a-zA-Z]+" id="state">
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="zip" class="form-label">Zip Code</label>
+                <input type="text" class="form-control" pattern="[0-9]+" id="zip">
+            </div>
+        </div>
+        <h4 style="margin-top:24px;">Volunteer Preferences</h4>
+
+                            <div class="mb-4" style="margin-top:20px;">
+                                <label class="form-label">How would you like to help? *</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="animal-care" id="animalCare">
+                                    <label class="form-check-label" for="animalCare">
+                                        Animal Care (feeding, walking, grooming)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="events" id="events">
+                                    <label class="form-check-label" for="events">
+                                        Event Support (fundraisers, adoption events)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="admin" id="admin">
+                                    <label class="form-check-label" for="admin">
+                                        Administrative Support (office work, data entry)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="fostering" id="fostering">
+                                    <label class="form-check-label" for="fostering">
+                                        Fostering Animals
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="transport" id="transport">
+                                    <label class="form-check-label" for="transport">
+                                        Transportation (vet visits, events)
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                <label for="availability" class="form-label">When are you available? *</label>
+                                <select class="form-select" id="availability" required>
+                                    <option value="">Select availability...</option>
+                                    <option value="weekdays">Weekdays</option>
+                                    <option value="weekends">Weekends</option>
+                                    <option value="both">Both Weekdays and Weekends</option>
+                                    <option value="flexible">Flexible</option>
+                                </select>
+                            </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                <label for="hoursPerWeek" class="form-label">Weekly hours available?</label>
+                                <select class="form-select" id="hoursPerWeek">
+                                    <option value="">Select hours...</option>
+                                    <option value="1-3">1-3 hours</option>
+                                    <option value="4-6">4-6 hours</option>
+                                    <option value="7-10">7-10 hours</option>
+                                    <option value="10+">10+ hours</option>
+                                </select> 
+                            </div>
+                                </div>
+                            </div>
+
+                            <!-- Experience -->
+                            <h4 style="margin-top:10px;">Experience</h4>
+                            <div class="mb-3">
+                                <label class="form-label">Do you have experience with animals?</label>
+                                <div class="form-check">
+                                    <input class="form-check-radio" type="radio" name="experience" value="yes" id="expYes">
+                                    <label class="form-check-label" for="expYes">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-radio" type="radio" name="experience" value="no" id="expNo">
+                                    <label class="form-check-label" for="expNo">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="comments" class="form-label">Tell us about yourself and why you want to volunteer</label>
+                                <textarea class="form-control" id="comments" rows="4" placeholder="Share your story, experience, or motivation..."></textarea>
+                            </div>
+
+                            <div>
+                                <button type="submit" class="btn btn-primary btn-lg" style="margin-top:30px;">Submit Application</button>
+                            </div>
+
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </form>
+      </div>
+      <footer>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-4 footer-section">
+          <h3>About Pawesome</h3>
+          <p>Dedicated to finding loving homes for pets in need. Every animal deserves a second chance at happiness.</p>
+        </div>
+        
+        <div class="col-md-4 footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="findapet.html">Find a Pet</a></li>
+            <li><a href="getinvolved.html">Get Involved</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="donate.html">Donate</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 footer-section">
+          <h3>Contact Us</h3>
+          <p> <a href="mailto:contact@pawesome.com">contact@pawesome.com</a></p>
+          <p>(646) 123-4369</p>
+          <p>123 Fuming St, PetVille</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright &copy; 2025 Pawesome. All rights reserved. | Created by <a href="mailto:yourfirstname@yourlastname.com">Fuming Xu</a></p>
+    </div>
+  </div>
+</footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>

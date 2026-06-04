@@ -1,0 +1,560 @@
+/*Homepage*/
+/*Nav*/
+.navbarcustom {
+    font-weight:bold;
+    }
+
+.nav-link:hover {
+        color:#0d6efd;
+    }
+
+.navbar-nav .nav-link.active {
+    color:#0d6efd;
+    }
+
+/*Hero Image Section*/
+.homeheroimg {
+    background-image: url("images/homepgheroimg.jpg");
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px;
+    }
+
+.heroimgtext {
+    text-align: center;
+    color: white;
+    max-width: 700px;
+    padding: 30px;
+    }
+
+.heroimgtext h1 {
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px gray;
+    }
+
+.heroimgtext p {
+    font-size: 21px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px gray;
+    }
+
+.heroimgtext .btn {
+    padding: 12px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    }
+
+/*Carousel Section*/
+.petsforadpttext {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    }
+    
+.petsforadpttext h3 {
+    display: inline-block;
+    border-bottom: 5px solid #0d6efd;
+    padding-bottom: 20px;
+    }
+
+/*Carousel Cards flexbox layout*/
+.carouselcardflex {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+    }
+
+.card {
+    border: none;
+    width: 18rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #D3D3D3;
+    transition: transform 0.3s ease;
+    }
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 35px #D3D3D3;
+    }
+
+.card-img-top {
+    height: 225px;
+    }
+
+.card-body {
+    padding: 20px;
+    }
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    }
+
+.card-text {
+    color: #666;
+    font-size:14.5px;
+    margin-top:15px;
+    margin-bottom: 20px;
+    min-height: 60px;
+    }
+
+.card .btn {
+    width: 100%;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    }
+
+.card .badge {
+    font-size: 13px;
+    padding: 6px 12px;
+    font-weight: 600;
+    }
+
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    background-color: #0d6efd;
+    border-radius: 50%;
+    padding: 25px;
+    }
+
+.seeourallpetbutton {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    }
+
+.seeourallpetbutton .btn {
+    padding: 15px 50px;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: #0d6efd;
+    transition: all 0.3s ease;
+    }
+
+.seeourallpetbutton .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px #D3D3D3;
+    }
+
+.image-text-section {
+    margin-top: 250px;
+    margin-bottom: 80px;
+    }
+
+.image-text-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    margin-top:20px;
+    margin-bottom: 20px;
+    }
+
+.image-text-section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    }
+    
+.image-text-section img {
+    margin-top:25px;
+    box-shadow: 0 5px 20px #D3D3D3;
+    border-radius:10px;
+    }
+    /*Footer*/
+footer {
+    background-color:#2a5298;
+    padding-top:60px;
+    }
+
+footer h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: white;
+    padding-bottom: 15px;
+    display: inline-block;
+    border-bottom: 5px solid white;
+    padding-bottom: 20px;
+    }
+
+
+.footer-section {
+    margin-bottom: 40px;
+    }
+
+.footer-section p {
+    color: white;
+    line-height: 200%;
+    }
+
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    }
+
+.footer-section a:hover {
+    font-weight:bold;
+    }
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+.footer-links li {
+    margin-bottom: 12px;
+    }
+
+.footer-bottom {
+    padding: 25px 0;
+    margin-top: 40px;
+    text-align: center;
+    }
+
+.footer-bottom p {
+    margin-bottom: 0;
+    color:white;
+    font-size: 14px;
+    }
+
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+/*Find a Pet Page*/
+/* filtr*/
+.filtr-button {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+.filtr-button ul {
+    list-style:none;
+    }
+
+.filtr-button li {
+    display: inline-block;
+    border-radius:15px;
+    font-weight:bold;
+    background-color:#0d6efd;
+    padding:10px;
+    color:white;
+    margin:10px;
+    }
+#findapetcontainer {
+    margin-top:100px;
+    margin-bottom: 30px;
+    }
+
+/*Get Involved Page*/
+.pageheader {
+background-color: #0d6efd;
+color: white;
+padding: 60px;
+text-align: center;
+margin-bottom: 60px;
+    }
+
+.page-header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.pageheader p {
+    font-size: 20px;
+}
+
+.formheading {
+    margin-bottom:30px;
+    text-align:center;
+    padding-bottom:20px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+#formcontainer {
+    margin-bottom:200px;
+    width:45%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 10px 35px #D3D3D3;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+form h4 {
+    font-weight:bold;
+}
+
+.form-check {
+    margin-bottom: 10px;
+}
+
+.form-check-input {
+    margin-top: 0.3em;
+}
+
+.form-check-label {
+    color: #555;
+    margin-left: 5px;
+}
+
+.thankyoubg {
+    background-image:url("images/dog2.jpg");
+    background-size:100%;
+}
+/*Volunteer Form Thank You Page*/
+.thank-you-container {
+    margin-top:100px;
+    margin-bottom:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.thank-you-card {
+    background: white;
+    padding: 60px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px #D3D3D3;
+    text-align: center;
+    max-width: 600px;
+}
+
+.thank-you-card h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+.thank-you-card p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+/*About Us Page*/
+.aboutusheroimg {
+    background-image: url("images/cat5.jpg");
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px;
+    }
+    #ourstorysection {
+        margin-top: 80px; 
+        margin-bottom: 80px;
+    }
+
+    #ourstorysection h2 {
+        font-weight: bold; 
+        color: black; 
+        margin-bottom: 20px;
+    }
+
+    #ourstorysection p {
+        font-size: 17px; 
+        line-height: 1.8; 
+        color: #555;
+    }
+    
+    #ourstorysection img {
+        border-radius: 15px; 
+        box-shadow: 0 5px 20px #D3D3D3;
+    }
+
+    #ourmissionsection {
+        background-color: #f8f9fa; 
+        padding: 60px 0;
+    }
+    #ourmissionsection p {
+        font-size: 18px; 
+        color: #666; 
+        max-width: 700px; 
+        margin: 20px auto;
+    }
+    #ourmissioncolumns {
+        padding: 30px; 
+        background: white; 
+        border-radius: 15px; 
+        box-shadow: 0 5px 20px #D3D3D3;
+    }
+    #ourmissionemojis {
+        font-size: 48px; 
+        margin-bottom: 15px;
+    }
+    #ourmissionsection h4 {
+        font-weight: bold; 
+        color: #333; 
+        margin-bottom: 15px;
+    }
+    #impactsection {
+        margin-top: 80px; 
+        margin-bottom: 80px;
+        text-align:center;
+    }
+    #impactsection p {
+        font-size: 18px; 
+        color: #666;
+    }
+    #impactsection h3 {
+        font-size: 48px; 
+        font-weight: bold; 
+        color: #0d6efd; 
+        margin-bottom: 10px;
+    }
+    #achievementtext {
+        font-size: 18px; 
+        color: #666; 
+        font-weight: 600;
+    }
+    #ourvaluessection {
+        background-color: #f8f9fa; 
+        padding: 60px 0; 
+        margin-bottom: 0;
+        text-align:center;
+    }
+    #ourvaluessection h4 {
+        font-weight: bold; 
+        color: #333; 
+        margin-bottom: 15px;
+    }
+    #ourvaluessection p {
+        color: #666; 
+        line-height: 1.8;
+    }
+    #ctasection {
+        margin-top: 80px; 
+        margin-bottom: 80px;
+        text-align:center;
+    }
+    #ctasection h2 {
+        font-weight: bold; 
+        color: #333; 
+        margin-bottom: 20px;
+    }
+    #ctasection p {
+        font-size: 18px; 
+        color: #666; 
+        margin-bottom: 30px;
+    }
+    #findapetbutton {
+        margin: 10px; 
+        padding: 12px 40px; 
+        font-size: 18px; 
+        font-weight: 600; 
+        border-radius: 50px;
+    }
+    #getinvolvedbutton {
+        margin: 10px; 
+        padding: 12px 40px; 
+        font-size: 18px; 
+        font-weight: 600; 
+        border-radius: 50px;
+    }
+    /*Donation page*/
+    #donationform {
+        background-color: #f8f9fa;
+         padding: 60px 0;
+    }
+    #donationimpactsection {
+        margin-top: 80px; 
+        margin-bottom: 60px;
+        text-align:center;
+    }
+    #donationimpactsection p {
+        color: #666; 
+        font-size: 15px;
+    }
+    #donationimpactsectioncol {
+        padding: 30px; 
+        background: white; 
+        border-radius: 15px; 
+        box-shadow: 0 5px 20px rgba(0,0,0,0.08); 
+        height: 100%;
+        text-align:center;
+    }
+    #donationimpactsection h3 {
+        font-size: 36px; 
+        font-weight: bold; 
+        color: #0d6efd; 
+        margin-bottom: 15px;
+    }
+    #donationimpactsection h5 {
+        font-weight: bold; 
+        color: #333; 
+        margin-bottom: 15px;
+    }
+    #inputdollarsign{
+        background-color: #0d6efd; 
+        color: white; 
+        font-weight: 600;
+    }
+
+/*Media Queries*/
+@media screen and (max-width: 768px) {
+    .homeheroimg {
+        height: 500px;
+    }
+    .heroimgtext h1 {
+        font-size: 32px;
+        }
+        
+    .heroimgtext p {
+        font-size: 16px;
+        }
+        
+    .carouselcardflex {
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        }
+        
+    .petsforadpttext {
+        font-size: 32px;
+        }
+
+    #findapetcontainer {
+        margin-bottom:100px;
+        }
+    #formcontainer {
+        width:100%
+    }
+    .thank-you-card {
+        padding: 40px 30px;
+    }
+    
+    .thank-you-card h1 {
+        font-size: 36px;
+    }
+   
+    }
