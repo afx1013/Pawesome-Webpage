@@ -16,4 +16,4 @@ Pawesome is a front-end website for a fictional pet adoption center. The site sp
 - JavaScript
 
 ## Live Demo
-[Visit Pawesome](https://yourusername.github.io/Pawesome-Webpage)
+[Visit Pawesome](https://afx1013.github.io/Pawesome-Webpage/)
