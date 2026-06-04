@@ -5,7 +5,7 @@ Pawesome is a front-end website for a fictional pet adoption center. The site sp
 ## Pages
 - **Home** – Landing page for the Pawesome brand
 - **Get Involved** – Sign up to volunteer with Pawesome
-- **Find a Pet** – Browse available cats and dogs for adoption
+- **Find a Pet** – Browse available cats and dogs for adoption. Buttons at the top of this page helps you sort or search for your desired traits in a pet
 - **Adoption Form** – Apply to adopt a pet
 - **About Us** – Learn about the Pawesome mission
 - **Donate** – Support the cause
